@@ -1,10 +1,10 @@
 {
-  "name": "gatsby-starter-portfolio-emma",
-  "description": "Gatsby Starter Portfolio Emma",
+  "name": "alyssaandvincent",
+  "description": "Alyssa and Vincent wedding site",
   "version": "2.0.0",
-  "author": "LekoArts <hello@lekoarts.de> (https://www.lekoarts.de)",
+  "author": "Vincent Taverna <vinnymac@gmail.com>",
   "repository": {
-    "url": "https://github.com/LeKoArts/gatsby-starter-portfolio-emma",
+    "url": "https://github.com/vinnymac/alyssaandvincent",
     "type": "git"
   },
   "dependencies": {
@@ -55,7 +55,8 @@
     "build": "gatsby build",
     "dev": "gatsby develop -o",
     "serve": "gatsby serve",
-    "postinstall": "node ./bin/hello.js"
+    "postinstall": "node ./bin/hello.js",
+    "deploy": "gatsby build && gh-pages -d public --branch master"
   },
   "devDependencies": {
     "babel-eslint": "^9.0.0",

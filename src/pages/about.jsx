@@ -8,15 +8,12 @@ const About = () => (
     <Helmet title={`About | ${config.siteTitle}`} />
     <Header>About</Header>
     <Container type="text">
-      <h1>Hi!</h1>
+      <h1>Welcome!</h1>
       <p>
-        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
-        texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A
-        small river named Duden flows by their place and supplies it with the necessary regelialia. It is a
-        paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing
-        has no control about the blind texts it is an almost unorthographic life One day however a small line of blind
-        text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to
-        do so, because there were thousands.
+        Alyssa and I are excited to have our family and friends to share
+        our wedding day with us on October 7th, 2018. We look forward to seeing
+        you all there! If you have any questions,
+        feel free to reach out to us.
       </p>
     </Container>
   </Layout>

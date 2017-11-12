@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
+	pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
 	siteTitle: 'Alyssa & Vincent', // Navigation and Site Title
 	siteTitleAlt: 'Alyssa & Vincent - Wedding', // Alternative Site title for SEO
 	siteUrl: 'https://alyssaandvincent.com', // Domain of your site. No trailing slash!
@@ -12,6 +12,10 @@ module.exports = {
 	ogSiteName: '', // Facebook Site Name
 	googleAnalyticsID: '',
 	copyright: 'Copyright © 2017. All rights reserved.', // Copyright in the footer of the site
+	// You can translate these three words into your language if you want. They'll be shown on the project page header
+	client: 'Client',
+	date: 'Date',
+	service: 'Service',
 	// Manifest and Progress color
 	themeColor: '#6b266b',
 	backgroundColor: '#ffffff',
@@ -19,4 +23,4 @@ module.exports = {
 	headerFontFamily: 'Merriweather',
 	bodyFontFamily: 'Roboto',
 	baseFontSize: '16px'
-};
+}
