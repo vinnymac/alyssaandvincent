@@ -1,6 +1,6 @@
 ---
-client: "CubeRound"
-title: "CubeRound - Make Cubes round!"
+client: "Puppies"
+title: "Our pups solar and luna"
 cover: "./withluna.jpg"
 date: "10.03.2018"
 service: "Website"
