@@ -1,9 +1,5 @@
 {
   "assetsByChunkName": {
-    "path---cube-round-make-cubes-round": [
-      "path---cube-round-make-cubes-round-7267be84dfdfc95e72af.js",
-      "path---cube-round-make-cubes-round-7267be84dfdfc95e72af.js.map"
-    ],
     "component---src-templates-project-jsx": [
       "component---src-templates-project-jsx-f8a0ee07c145e69b6b6e.js",
       "component---src-templates-project-jsx-f8a0ee07c145e69b6b6e.js.map"
@@ -24,13 +20,17 @@
       "component---src-layouts-index-jsx-655c8f3c744704e7889b.js",
       "component---src-layouts-index-jsx-655c8f3c744704e7889b.js.map"
     ],
+    "path---our-pups-solar-and-luna": [
+      "path---our-pups-solar-and-luna-c3de6762cd4ffbb0dfd1.js",
+      "path---our-pups-solar-and-luna-c3de6762cd4ffbb0dfd1.js.map"
+    ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "path---index": [
-      "path---index-cae2e6e13713f2a748c1.js",
-      "path---index-cae2e6e13713f2a748c1.js.map"
+      "path---index-89c47915245ad8f50eb9.js",
+      "path---index-89c47915245ad8f50eb9.js.map"
     ],
     "component---src-pages-about-jsx": [
       "component---src-pages-about-jsx-fa22e208cd8ec9de967a.js",
@@ -71,9 +71,9 @@
       "component---src-pages-index-jsx-c0b867be101f8e367bec.js.map"
     ],
     "app": [
-      "app-a958e7c61e53908dd010.js",
+      "app-b14047c5e5bd0628b451.js",
       "build-js-styles.css",
-      "app-a958e7c61e53908dd010.js.map",
+      "app-b14047c5e5bd0628b451.js.map",
       "build-js-styles.css.map"
     ],
     "path---vacation": [
