@@ -1,14 +1,18 @@
 ---
-title: "Engaged"
+title: "Our Story"
 cover: "./engaged.jpg"
 date: "10.06.2018"
 eventdate: "05.28.2016"
 location: "Lake George NY"
-description: "Our engagement story"
+description: "Fate & Engagement"
 ---
-# Engaged
+# Our Story
 
-Alyssa and I became engaged on the Prospect Mountain Trail that overlooks Lake George. We had a crowd, applause, and even a pup run by while I was proposing. We loved that day, but the 90+ degree whether was definitely not expected!
+Alyssa and Vincent were introduced by mutual friends in 2006 at a school play and realized that love at first sight really does exist even if you're only 15.
+
+# Our Proposal
+
+Vincent came up to Albany to help Alyssa move May 28th, 2016. That same weekend they decided to take a hike on Prospect Mountain where Vincent proposed at a scenic overlook of Lake George. A crowd of onlookers cheered, a dog ran around, and Alyssa tried to get over her shock.
 
 ![Overlook Lake George](./view.jpg)
 
