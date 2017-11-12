@@ -9,8 +9,8 @@
       "component---src-templates-project-jsx-f8a0ee07c145e69b6b6e.js.map"
     ],
     "path---the-appel-inn": [
-      "path---the-appel-inn-2eb5e0257a6e52b54480.js",
-      "path---the-appel-inn-2eb5e0257a6e52b54480.js.map"
+      "path---the-appel-inn-cac1e8754abb8a5cd2e8.js",
+      "path---the-appel-inn-cac1e8754abb8a5cd2e8.js.map"
     ],
     "component---src-pages-contact-jsx": [
       "component---src-pages-contact-jsx-5a9d6f218a7aa2905912.js",
@@ -29,8 +29,8 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "path---index": [
-      "path---index-505a1a987e3abddb2f46.js",
-      "path---index-505a1a987e3abddb2f46.js.map"
+      "path---index-cae2e6e13713f2a748c1.js",
+      "path---index-cae2e6e13713f2a748c1.js.map"
     ],
     "component---src-pages-about-jsx": [
       "component---src-pages-about-jsx-fa22e208cd8ec9de967a.js",
@@ -41,6 +41,10 @@
       "build-js-styles.css",
       "commons-0bd2e762d8d2f9bbe398.js.map",
       "build-js-styles.css.map"
+    ],
+    "path---our-story": [
+      "path---our-story-bfedcabc6cde4776ce94.js",
+      "path---our-story-bfedcabc6cde4776ce94.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
@@ -58,10 +62,6 @@
       "path---registry-4ab91b1ead3fee3acd8a.js",
       "path---registry-4ab91b1ead3fee3acd8a.js.map"
     ],
-    "path---engaged": [
-      "path---engaged-f02f47713ee93f8f55f5.js",
-      "path---engaged-f02f47713ee93f8f55f5.js.map"
-    ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
@@ -71,9 +71,9 @@
       "component---src-pages-index-jsx-c0b867be101f8e367bec.js.map"
     ],
     "app": [
-      "app-4ebc29cfbfb626391b40.js",
+      "app-a958e7c61e53908dd010.js",
       "build-js-styles.css",
-      "app-4ebc29cfbfb626391b40.js.map",
+      "app-a958e7c61e53908dd010.js.map",
       "build-js-styles.css.map"
     ],
     "path---vacation": [
