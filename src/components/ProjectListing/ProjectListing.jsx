@@ -23,7 +23,7 @@ export default class ProjectListing extends React.PureComponent {
 		const List = this.getList()
 		return (
 			<div className={styles.base}>
-				{List.map((project) => {
+				{List.map(project => {
 					const headerText = project.title || project.venue || project.client
 					const subText = project.description || project.service
 					return (
@@ -33,7 +33,9 @@ export default class ProjectListing extends React.PureComponent {
 									<Img sizes={project.cover} />
 								</div>
 								{project.noclick ? (
-									<Palette image={project.imageURL} />
+									<Palette image={project.imageURL}>
+										{palette => <div />}
+									</Palette>
 								) : (
 									<Link
 										to={project.path}
@@ -41,13 +43,11 @@ export default class ProjectListing extends React.PureComponent {
 										className={styles.link}
 									>
 										<Palette image={project.imageURL}>
-											{project.noclick ? null : (
-												palette => (
-													<div
-														className={styles.overlay}
-														style={{ backgroundColor: palette.vibrant }}
-													/>
-												)
+											{palette => (
+												<div
+													className={styles.overlay}
+													style={{ backgroundColor: palette.vibrant }}
+												/>
 											)}
 										</Palette>
 										<h2 className={styles.client} key={headerText}>
