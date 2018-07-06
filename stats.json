@@ -4,10 +4,6 @@
       "component---src-templates-project-jsx-9c2380c292fbd148a18a.js",
       "component---src-templates-project-jsx-9c2380c292fbd148a18a.js.map"
     ],
-    "path---the-appel-inn": [
-      "path---the-appel-inn-bdd1ffd8b1c69f3ea1fa.js",
-      "path---the-appel-inn-bdd1ffd8b1c69f3ea1fa.js.map"
-    ],
     "component---src-pages-contact-jsx": [
       "component---src-pages-contact-jsx-5a9d6f218a7aa2905912.js",
       "component---src-pages-contact-jsx-5a9d6f218a7aa2905912.js.map"
@@ -29,8 +25,8 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "path---index": [
-      "path---index-89c47915245ad8f50eb9.js",
-      "path---index-89c47915245ad8f50eb9.js.map"
+      "path---index-3090805cd0d5f816dddc.js",
+      "path---index-3090805cd0d5f816dddc.js.map"
     ],
     "component---src-pages-about-jsx": [
       "component---src-pages-about-jsx-fa22e208cd8ec9de967a.js",
@@ -70,10 +66,14 @@
       "component---src-pages-index-jsx-79dd11cfbb3fcd37bcd2.js",
       "component---src-pages-index-jsx-79dd11cfbb3fcd37bcd2.js.map"
     ],
+    "path---accommodations-directions": [
+      "path---accommodations-directions-1981fe14a5e5f2e1e6e6.js",
+      "path---accommodations-directions-1981fe14a5e5f2e1e6e6.js.map"
+    ],
     "app": [
-      "app-cc7458776a83490f038d.js",
+      "app-882137b8ec55a4acffd5.js",
       "build-js-styles.css",
-      "app-cc7458776a83490f038d.js.map",
+      "app-882137b8ec55a4acffd5.js.map",
       "build-js-styles.css.map"
     ],
     "path---vacation": [
