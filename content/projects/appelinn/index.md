@@ -1,11 +1,11 @@
 ---
-title: "The Appel Inn"
+title: "Accommodations & Directions"
 cover: "./appelinn.jpg"
 date: "10.07.2018"
 eventdate: "10.07.2018"
 service: "Ceremony & Reception"
 location: "Altamont NY"
-description: "Click here for directions and accommodations"
+description: "Click here for directions to The Appel Inn"
 ---
 # The Appel Inn at the Gathering Space
 
