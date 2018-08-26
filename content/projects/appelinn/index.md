@@ -15,6 +15,23 @@ Our wedding venue is located at 590 Route 146 Altamont, New York 12009, just out
 
 Accommodations for the Appel Inn are being handled by the following hotels. We will be providing shuttles that will go from the hotel to the venue and back in the evening.
 
+### Details
+
+#### Buses
+
+* Pick up at 4:15pm
+* One pickup at beginning of wedding
+* One dropoff at end of wedding
+
+#### Special Rates
+
+* The wedding block is available until September 7th, book soon!
+* Ask for the Trivigno/Taverna wedding block
+
+#### Baby Sitters
+
+Baby sitters will be available at the hotels, please reach out to Alyssa for availability
+
 ### Hampton Inn Albany Western Ave University Area
 You can contact the hotel at (518) 438-0001. For more details or to book online [click here](http://www.albanywesternaveuniversityarea.hamptoninn.com/).
 
