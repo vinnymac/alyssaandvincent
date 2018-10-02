@@ -6,6 +6,7 @@ eventdate: "10.07.2018"
 service: "Ceremony & Reception"
 location: "Altamont NY"
 description: "Click here for directions to The Appel Inn"
+client: "Accommodations & Directions"
 ---
 # The Appel Inn at the Gathering Space
 

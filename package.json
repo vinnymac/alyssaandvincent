@@ -59,6 +59,7 @@
     "deploy": "gatsby build && gh-pages -d public --branch master"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
     "babel-eslint": "^9.0.0",
     "babel-preset-env": "^1.7.0",
     "chalk": "^2.4.1",

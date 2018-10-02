@@ -107,15 +107,6 @@ const Navigation = () => (
       <Link to="/">{config.siteTitle}</Link>
     </Name>
     <SocialMedia>
-      <a href="https://www.instagram.com/lekoarts.de" target="_blank" rel="noopener noreferrer">
-        <FaInstagram />
-      </a>
-      <a href="https://www.behance.net/lekoarts" target="_blank" rel="noopener noreferrer">
-        <FaBehance />
-      </a>
-      <a href="https://dribbble.com/LeKoArts" target="_blank" rel="noopener noreferrer">
-        <FaDribbble />
-      </a>
     </SocialMedia>
   </Wrapper>
 );

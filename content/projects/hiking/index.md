@@ -1,6 +1,6 @@
 ---
-client: "SmartTriangle"
-title: "SmartTriangle - Make Triangles smart!"
+client: ""
+title: ""
 cover: "./hiking.jpg"
 date: "10.02.2018"
 service: "Art Direction"

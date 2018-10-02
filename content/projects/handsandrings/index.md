@@ -5,6 +5,8 @@ date: "10.05.2018"
 eventdate: "10.07.2018"
 location: "Amazon.com"
 description: "Our wedding registry"
+client: "Registry"
+service: ""
 ---
 # Registry
 

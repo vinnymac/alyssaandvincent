@@ -5,6 +5,8 @@ date: "10.06.2018"
 eventdate: "05.28.2016"
 location: "Lake George NY"
 description: "Fate & Engagement"
+client: "Our Story"
+service: "Fate & Engagement"
 ---
 # Our Story
 
