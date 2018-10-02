@@ -5,10 +5,15 @@ import styled from 'react-emotion';
 import Img from 'gatsby-image';
 import sample from 'lodash/sample';
 import { overlay } from '../../config/theme';
+import Palette from 'react-palette';
 
 const Wrapper = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-auto-rows: 33.33333vw;
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+  grid-template-columns: repeat(3,1fr);
+  max-width: 100vw;
   width: 100%;
 `;
 
@@ -32,7 +37,6 @@ const Content = styled.div`
     color: #fff;
     height: 100%;
     left: 0;
-    opacity: 0;
     padding: 2rem;
     position: absolute;
     top: 0;
@@ -43,8 +47,15 @@ const Content = styled.div`
 
     &:hover {
       color: #fff;
-      opacity: 1;
       text-decoration: none;
+      div {
+        opacity: 1;
+      }
+    }
+
+    > div {
+      opacity: 0;
+      transition: all .5s;
     }
   }
 `;
@@ -75,19 +86,28 @@ const Overlay = styled.div`
 
 const ProjectListing = ({ projectEdges }) => (
   <Wrapper>
-    {projectEdges.map(project => {
+    {projectEdges.map(({ node: { fields, frontmatter }}) => {
       const overlayColor = sample(overlay);
+      const headerText = frontmatter.title || frontmatter.venue || frontmatter.client
+      const subText = frontmatter.description || frontmatter.service
+
       return (
-        <Item key={project.node.fields.slug}>
+        <Item key={fields.slug}>
           <Content>
             <ImageWrapper>
-              <Img fluid={project.node.frontmatter.cover.childImageSharp.fluid} />
+              <Img fluid={frontmatter.cover.childImageSharp.fluid} />
             </ImageWrapper>
-            <Link to={project.node.fields.slug}>
-              <Overlay style={{ backgroundColor: overlayColor }} />
-              <h2>{project.node.frontmatter.client}</h2>
-              <div>{project.node.frontmatter.service}</div>
-            </Link>
+            {frontmatter.noclick ? null : (
+              <Link to={fields.slug}>
+                <Palette image={frontmatter.cover.childImageSharp.fluid.src}>
+                  {palette => (
+                    <Overlay style={{ backgroundColor: palette.darkVibrant }} />
+                  )}
+                </Palette>
+                <h2>{headerText}</h2>
+                <div>{subText}</div>
+              </Link>
+            )}
           </Content>
         </Item>
       );

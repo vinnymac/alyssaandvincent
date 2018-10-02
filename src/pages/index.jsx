@@ -34,6 +34,10 @@ export const pageQuery = graphql`
           frontmatter {
             service
             client
+            description
+            title
+            noclick
+            location
             cover {
               childImageSharp {
                 fluid(maxWidth: 850, quality: 90, traceSVG: { color: "#f3f3f3" }) {

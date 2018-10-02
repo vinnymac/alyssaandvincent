@@ -4,11 +4,9 @@ import styled from 'react-emotion';
 import { graphql } from 'gatsby';
 import Helmet from 'react-helmet';
 import { Container, SEO, Layout } from 'components';
-import sample from 'lodash/sample';
 import config from '../../config/website';
 import { overlay } from '../../config/theme';
-
-const overlayColor = sample(overlay);
+import Palette from 'react-palette';
 
 const Wrapper = styled.section`
   text-align: center;
@@ -46,27 +44,33 @@ const Bottom = styled.div`
 
 const Project = ({ pageContext: { slug }, data: { markdownRemark: postNode } }) => {
   const project = postNode.frontmatter;
+  const imageURL = project.cover.childImageSharp.resize.src;
+
   return (
     <Layout>
       <Helmet title={`${project.title} | ${config.siteTitle}`} />
       <SEO postPath={slug} postNode={postNode} postSEO />
-      <Wrapper style={{ backgroundColor: overlayColor }}>
-        <h1>{project.title}</h1>
-        <InformationWrapper>
-          <InfoBlock>
-            <Top>Client</Top>
-            <Bottom>{project.client}</Bottom>
-          </InfoBlock>
-          <InfoBlock>
-            <Top>Date</Top>
-            <Bottom>{project.date}</Bottom>
-          </InfoBlock>
-          <InfoBlock>
-            <Top>Service</Top>
-            <Bottom>{project.service}</Bottom>
-          </InfoBlock>
-        </InformationWrapper>
-      </Wrapper>
+      <Palette image={imageURL}>
+        {palette => (
+          <Wrapper style={{ backgroundColor: palette.darkVibrant }}>
+            <h1>{project.title}</h1>
+            <InformationWrapper>
+              <InfoBlock>
+                <Top>Client</Top>
+                <Bottom>{project.client}</Bottom>
+              </InfoBlock>
+              <InfoBlock>
+                <Top>Date</Top>
+                <Bottom>{project.date}</Bottom>
+              </InfoBlock>
+              <InfoBlock>
+                <Top>Service</Top>
+                <Bottom>{project.service}</Bottom>
+              </InfoBlock>
+            </InformationWrapper>
+          </Wrapper>
+        )}
+      </Palette>
       <Container type="text">
         <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
       </Container>
@@ -91,10 +95,12 @@ export const pageQuery = graphql`
       html
       excerpt
       frontmatter {
+        eventdate
+        date
         title
-        date(formatString: "MM.DD.YYYY")
         client
         service
+        location
         cover {
           childImageSharp {
             resize(width: 800) {
