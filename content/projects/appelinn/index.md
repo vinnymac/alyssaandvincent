@@ -82,7 +82,7 @@ You can contact the hotel at (518) 438-4300. For more details or to book online 
 
 For more information on the venue, [click here to visit their site](https://www.appelinn.com/weddings-events).
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2931.716754691895!2d-73.98767304849005!3d42.7097179208375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89de771dae5e3ae7%3A0x3a61e56fdfb31fc5!2sAppel+Inn!5e0!3m2!1sen!2sus!4v1509999823604" width="600" height="450" frameborder="0" style="border:0;padding-bottom: 20px;" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2931.716754691895!2d-73.98767304849005!3d42.7097179208375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89de771dae5e3ae7%3A0x3a61e56fdfb31fc5!2sAppel+Inn!5e0!3m2!1sen!2sus!4v1509999823604" width="600" height="450" frameborder="0" allowfullscreen></iframe>
 
 ### What to do after?
 

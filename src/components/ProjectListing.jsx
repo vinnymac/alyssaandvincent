@@ -53,6 +53,10 @@ const Content = styled.div`
       }
     }
 
+    h2 {
+      font-size: 3vw;
+    }
+
     > div {
       opacity: 0;
       transition: all .5s;

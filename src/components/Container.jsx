@@ -17,6 +17,13 @@ const Wrapper = styled.div`
         --x-height-multiplier: 0.35;
       }
     `};
+
+  .gatsby-resp-iframe-wrapper {
+  	iframe {
+  		padding-bottom: 20px;
+  		border: 0;
+  	}
+  }
 `;
 
 const Container = ({ children, type, className }) => (
