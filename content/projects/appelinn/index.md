@@ -12,7 +12,7 @@ client: "Accommodations & Directions"
 
 ![Appel Inn Birds Eye](./appelinn.jpg)
 
-Our wedding venue is located at 590 Route 146 Altamont, New York 12009, just outside of Albany.
+Our wedding venue is located at [590 Route 146 Altamont, New York 12009](https://goo.gl/maps/YJYG2CJCMrA2), just outside of Albany.
 
 Accommodations for the Appel Inn are being handled by the following hotels. We will be providing shuttles that will go from the hotel to the venue and back in the evening. Ask your hotel receptionist about the wedding block to receive the welcome bag!
 
