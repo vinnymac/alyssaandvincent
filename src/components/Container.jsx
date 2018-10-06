@@ -24,6 +24,11 @@ const Wrapper = styled.div`
   		border: 0;
   	}
   }
+
+  summary {
+  	display: list-item;
+  	cursor: pointer;
+  }
 `;
 
 const Container = ({ children, type, className }) => (

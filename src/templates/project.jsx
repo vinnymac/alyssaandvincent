@@ -45,6 +45,7 @@ const Bottom = styled.div`
 const Project = ({ pageContext: { slug }, data: { markdownRemark: postNode } }) => {
   const project = postNode.frontmatter;
   const imageURL = project.cover.childImageSharp.resize.src;
+  const event = project.description || project.service
 
   return (
     <Layout>
@@ -56,17 +57,19 @@ const Project = ({ pageContext: { slug }, data: { markdownRemark: postNode } }) 
             <h1>{project.title}</h1>
             <InformationWrapper>
               <InfoBlock>
-                <Top>Client</Top>
-                <Bottom>{project.client}</Bottom>
+                <Top>Location</Top>
+                <Bottom>{project.location || project.client}</Bottom>
               </InfoBlock>
               <InfoBlock>
                 <Top>Date</Top>
                 <Bottom>{project.date}</Bottom>
               </InfoBlock>
-              <InfoBlock>
-                <Top>Service</Top>
-                <Bottom>{project.service}</Bottom>
-              </InfoBlock>
+              {event ? (
+                <InfoBlock>
+                  <Top>Event</Top>
+                  <Bottom>{event}</Bottom>
+                </InfoBlock>
+              ) : null}
             </InformationWrapper>
           </Wrapper>
         )}

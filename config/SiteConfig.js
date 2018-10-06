@@ -16,9 +16,9 @@ module.exports = {
   googleAnalyticsID: '',
   copyright: `Copyright © ${currentYear}. All rights reserved.`, // Copyright in the footer of the site
   // You can translate these three words into your language if you want. They'll be shown on the project page header
-  client: 'Client',
+  client: 'Location',
   date: 'Date',
-  service: 'Service',
+  service: 'Event',
   // Manifest and Progress color
   themeColor: '#6b266b',
   backgroundColor: '#ffffff',
