@@ -14,11 +14,19 @@ client: "Accommodations & Directions"
 
 Our wedding venue is located at 590 Route 146 Altamont, New York 12009, just outside of Albany.
 
-Accommodations for the Appel Inn are being handled by the following hotels. We will be providing shuttles that will go from the hotel to the venue and back in the evening.
+Accommodations for the Appel Inn are being handled by the following hotels. We will be providing shuttles that will go from the hotel to the venue and back in the evening. Ask your hotel receptionist about the wedding block to receive the welcome bag!
 
 ### Details
 
-#### Buses
+#### Events
+
+October 7th, 2018 at the Appel Inn
+
+* Ceremony at 5:00pm
+* Reception at 5:30pm
+* Ends at 11:00pm
+
+#### Buses for Hotels
 
 * Pick up at 4:15pm
 * One pickup at beginning of wedding
